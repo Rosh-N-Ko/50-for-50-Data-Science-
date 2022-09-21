@@ -1,0 +1,100 @@
+tkinter has various methods , lets go through some of them 
+1)Tk()
+This is an equals method which makes a variable a a window
+ 2)var.mainloop()
+ this allows the window to stay on until exit is called 
+ 3)window .geometry(width,height)
+ this allows us to set the intial dimensions of the the window 
+ 4)window.resizable(width=true/false,height=true /false)
+ if the condition is false the window size stays the same 
+ 5)window.title()
+ to make a tile 
+ 6)colours
+ colours can be stored in # urls like #f900b7
+ store in them in string varaibles and then use those varaibles, then us ethe .configure method to use it as bg and forgreground-bg,forgreground
+please remember to put a # sign 
+7)label=Label("text",font=("naeme size"))
+Thsi is  to create the text within the window
+
+
+8)label.grid(row=,column=,padx=,sticky=Direction-eg.NW,SE)
+position the label,padding ensures that text dont bump intoe each other 
+sticky ensure stha tduring expansion the the placemet of the text stays the smae 
+
+9)Frame 
+frames is another leve of the label , like heading 3 
+window is heading 1, label is helding 2 , and frame is heading 3
+frame=Frame(window,height=,width=,bg=)
+
+10)PIL(pillow)
+for stroing parsing and displaying images in tkinter 
+a)after importing the Image and and Image Tk () from the model
+b)store the image in a variable like so 
+img=Image.open('name.png')
+c)you can resize the image like so 
+img.resize((100,100))
+d)then put that image through tkinter trhough imageTk.PhotoImage like so 
+img=imageTk.PhotoImage(img)
+
+
+e)now this image is approprate for a tkinter window ,make it a label  
+
+then put the img in a label like so 
+imag=Label(window,height=100,image=img)
+f)place the label 
+imag.place(x=5,y=10)
+
+11)COmbobox
+the rolling list thing , this is in ttk 
+set a variable = Combobox(location-farme body,height=,width=,font)
+height=number of option syou want at disolay
+width=how much you wanna display through each option
+Things to do with Combobox:
+a)place=
+name.place(x=,y=)
+b)values=(the option sheld-like a,b,c etc)
+name['values']=["a","b","c"]
+
+c)name.current(0)
+here the 0 is index from the range of values 
+so i cant say 4, , as 4 can exist in abc (3 elements including 0)
+
+
+12)radiobutton
+looks like a targetr button 
+made like this 
+rad=Radiobutton(frame,value=1,fg=,bg=,font=(),text ,command =)
+the value of the radiobutton can be changed , by setting it according to an int variable 
+most importantly you can run commands , where whn you touch the button , some action happens,this is the point of th e button  
+commands accepts functions and when you are writing that as theh input for the command you dont need to write the bracketsto call them
+func()
+rad=Radiobutton(command=func)
+the above statement is acceptable 
+
+
+
+13)mixer
+mixer is a module from  pygame.it allows you to put in music into your guis
+a)import mixer form pygame 
+b)define a method ,which will call upon the fuctionalities of mixer 
+    def play():
+
+c) mixer.music.load('name.mp3')\
+    mixer.music.play()
+d)mixer.init()
+always initialise the mixer 
+e)now call the fucntion ,and put in the tkinter file , idk 
+f)stop
+when you wanna stop the music , run mixer.music.stop
+
+
+ 14)time-sleep(1)
+ sleep is a function in the time library that loops a block of code fucntion after a time period as specified 
+ sleep(1)
+ here you loop after one second 
+
+14)Thread
+thread helps you run a target function in the background,all you have to do is to define the target and the run the method 
+like so :
+a)t=Thread(target=func)
+t.start()
