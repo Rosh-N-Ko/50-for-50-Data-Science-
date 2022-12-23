@@ -1,0 +1,42 @@
+Problem statement:
+I wish to make my personal assistant to help me make And do simple things in my Personal Computer.But I do not know how automate or ese some my tasks 
+This project taught me to do that    
+
+
+
+Here are the main  things I learnt in this project 
+1.Working with the speech recognition librry in python  , to train And automate some of my task And use it to command the interface of the Personal Computer 
+2.Automating my emails through the Text-To-Speech interface   
+3.I learnt how to issue voice commands to complete tasks in my OS  
+4.using the try,except and finally block of code 
+5.
+6.
+
+
+I used the following libraries 
+a)os
+I used the so/OS library to access the operating system that I'm wokrking on 
+
+b)datetime 
+This is the library manipulate Data related to time And date for display purposes   
+
+c)pyttsx3
+The main library used to provide feedback And command prompts from my personal assistant  
+
+d)speech_recognition 
+This is the main library used to interce the user's voice commands and the automated response within the confines of the program  
+
+e)smtplib
+This is used to send emailsand such for automation 
+
+f)webbrowser
+This is the library used t iteract with web browser of my choice 
+
+g)automate_wikipedia 
+This is the librarysued to interact with wikipedia 
+
+
+1
+2.
+3.
+4.
