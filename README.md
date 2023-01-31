@@ -23,12 +23,14 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">50 for 50 Data Science</h3>
 
   <p align="center">
-    project_description
+This is a repository for all of my Data Science Projects:
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+A basic description will be given for each project  , including the libraries and resources used to make it easier for one to evaluate these projects
+    <br />
+    <a href="https://github.com/Rosh-N-Ko"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
