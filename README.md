@@ -95,8 +95,9 @@ To get a local copy up and running follow these simple example steps.
 <!-- CONTACT -->
 ## Contact
 
-My Socials  - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-//Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+My Socials  - [- roshan.dan.koshy@gmail.com
+
+Project Link: [https://github.com/Rosh-N-Ko/50-for-50-Data-Science-)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
