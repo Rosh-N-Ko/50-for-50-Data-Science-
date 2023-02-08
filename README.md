@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple example steps.
     - [ ] Used SQL for wrangling Data
     - [ ] Used Tableau for displaying the data
 - [ ] Project 2-Bike Buyer's Data Analysis
-    - [ ]Used excel for data Wrangling and presentation 
+    - [ ] Used excel for data Wrangling and presentation
 - [ ] Project 3-
     - [ ] Details 
 
